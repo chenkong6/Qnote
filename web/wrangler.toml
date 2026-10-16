@@ -1,0 +1,12 @@
+name = "qnote"
+compatibility_date = "2026-05-09"
+pages_build_output_dir = "dist"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "fragment-db"
+database_id = "34905c7e-c443-452e-8f7f-a0cd63596525"
+
+[[r2_buckets]]
+binding = "FILES"
+bucket_name = "qnote"

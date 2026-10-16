@@ -1,0 +1,34 @@
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Website dependencies and build output
+web/node_modules/
+web/dist/
+web/coverage/
+web/.wrangler/
+
+# Local data and archives
+*.db
+*.sqlite
+*.sqlite3
+*.apk
+*.aab
+*.zip
+
+# Flutter and IDE output
+app/.dart_tool/
+app/.flutter-plugins-dependencies
+app/build/
+app/.idea/
+app/*.iml
+app/**/.last_build_id
+app/android/app/debug/
+app/android/app/profile/
+app/android/app/release/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.log
